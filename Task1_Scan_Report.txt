@@ -1,0 +1,22 @@
+# Nmap 7.993 scan initiated Thu Nov  5 11:47:56 2026 as: nmap -sT -oN C:\Users\darli\Desktop\Task1_Scan_Report.txt 192.168.1.1
+
+Nmap scan report for 192.168.1.1
+
+Host is up (0.018s latency).
+
+Not shown: 989 closed tcp ports (conn-refused)
+
+PORT     STATE     SERVICE
+21/tcp   filtered  ftp
+22/tcp   filtered  ssh
+23/tcp   filtered  telnet
+53/tcp   open      domain
+80/tcp   open      http
+139/tcp  filtered  netbios-ssn
+161/tcp  filtered  snmp
+443/tcp  open      https
+445/tcp  filtered  microsoft-ds
+3517/tcp filtered  802-11-iapp
+8082/tcp filtered  blackice-alerts
+
+# Nmap done at Thu Nov  5 11:47:59 2026 -- 1 IP address (1 host up) scanned in 3.58 seconds

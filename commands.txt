@@ -1,0 +1,3 @@
+ipconfig
+nmap -sT 192.168.1.0/24
+nmap -sT -oN "%USERPROFILE%\Desktop\Task1_Scan_Report.txt" 192.168.1.1

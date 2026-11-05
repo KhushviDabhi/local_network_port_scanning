@@ -1,0 +1,12 @@
+IP Address,Port,State,Service
+192.168.1.1,21,filtered,ftp
+192.168.1.1,22,filtered,ssh
+192.168.1.1,23,filtered,telnet
+192.168.1.1,53,open,domain
+192.168.1.1,80,open,http
+192.168.1.1,139,filtered,netbios-ssn
+192.168.1.1,161,filtered,snmp
+192.168.1.1,443,open,https
+192.168.1.1,445,filtered,microsoft-ds
+192.168.1.1,3517,filtered,802-11-iapp
+192.168.1.1,8082,filtered,blackice-alerts
