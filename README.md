@@ -53,10 +53,10 @@ An open port alone does not prove a vulnerability. No exploitation was performed
 
 ## Files
 - `README.md` — this explanation.
-- `Task1_Scan_Report.txt` — original Nmap output supplied by the student.
+- `Task1_Scan_Report.txt` — original Nmap output supplied.
 - `commands.txt` — commands used.
 - `scan_findings.csv` — structured port results.
-- `screenshots/` — available practical screenshots.
+- `screenshots` — available practical screenshots.
 
 ## Conclusion
 The TCP connect scan confirmed that the router at `192.168.1.1` was reachable and found three open TCP ports (53, 80 and 443), plus several filtered ports. The original Nmap output is included as the primary scan evidence.
